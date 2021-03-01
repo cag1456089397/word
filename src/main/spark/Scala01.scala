@@ -5,7 +5,13 @@
   *        Content:
   */
 object Scala01 {
+    class Person(val name:String, val age:Int){
+        val this.name = name
+        val this.age = age
+    }
     def main(args: Array[String]): Unit = {
+        val person = new Person("zhangsan", 10)
+        println(person.name)
 
     }
 }
