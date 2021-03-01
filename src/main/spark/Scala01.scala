@@ -12,6 +12,7 @@ object Scala01 {
     def main(args: Array[String]): Unit = {
         val person = new Person("zhangsan", 10)
         println(person.name)
-
+        println(BigInt(2).pow(1024))
+        println(Math.pow(2,1024))
     }
 }
